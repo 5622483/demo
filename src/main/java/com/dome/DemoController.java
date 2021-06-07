@@ -15,6 +15,5 @@ public class DemoController {
     @RequestMapping("/hello")
     public String hello() {
         return "HelloWord";
-
     }
 }
